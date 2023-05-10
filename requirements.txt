@@ -1,0 +1,13 @@
+Django==2.2.16
+pytz==2018.5
+djangorestframework~=3.13.1
+django_rest_passwordreset
+requests~=2.29.0
+celery~=5.2.2
+pyyaml
+celery
+django-environ
+pathlib
+django-allauth
+django-rest-auth
+psycopg2-binary

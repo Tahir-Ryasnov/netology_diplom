@@ -1,0 +1,9 @@
+{% load socialaccount %}
+
+<h1>Ассаламу Ӏалайкум</h1>
+{% if user.is_authenticated %}
+<p>Қош келдіңіз {{ user.username }}! Please follow the link below to continue:</p>
+<a href="http://127.0.0.1:8000/docs/">API Service</a>
+{% else %}
+<a href="{% provider_login_url 'github' %}">Sign Up</a>
+{% endif %}
